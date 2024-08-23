@@ -1,0 +1,79 @@
+/* Container for the entire form */
+form {
+    width: 90%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* children vertically */
+    justify-content: center; /* items vertically */
+    align-items: center;    
+  }
+  
+  /* TITLE OK NA TO*/
+  #transferFUND {
+    color: #152360;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+#fundTransferwrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  /* SPACE BET: FROM ACCT=SELECT > TO ACCT=SELECT > AMOUNT=ENTER AMOUNT*/
+  form > div {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  /* LABEL "FROM ACCOUNT... "  */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #152360;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 100%;
+    width: 100%
+  }
+  
+  /* SELECT BOX STYLING */
+  select, input {
+    width: 40%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+  }
+
+  /* PLACEHOLDER */
+  placeholder {
+    color: #aaa;
+  }
+  
+
+  /* TRANSFER BUTTON */
+button { 
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 15px 50px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease; 
+}

@@ -1,0 +1,156 @@
+/* CSS NG COMOPENENT FILES: Budget.js, ExpenseItem.js, ExpenseList.js, ExpenseTotal.js , Remaining.js */
+
+/* ETO LANG YUNG NASA budgetApp.jsx -- 1 LINER NA BUDGET ALLOC*/ 
+#BudgetAllocation {
+    color: #152360;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#DashContainer {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    font-size: 18px;
+    background: rgb(253,242,190);
+    background: linear-gradient(90deg, rgba(253,242,190,1) 0%, rgba(21,35,96,1) 100%);
+  }
+
+  #budgetAppCOntainer {
+    width: 90%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center;    
+}
+
+
+/* Budget.js - TOTAL BUDGET*/
+#totalBudget {
+    color: #fdf2be;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#budget {
+    color: #152360;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Remaining.js */
+#remainingBudget {
+    color: #fdf2be;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#remainingAmt {
+    color: #152360;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+/* ExpenseTotal.js */
+#totalExpense {
+    color: #fdf2be;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#totalExpValue {
+    color: #152360;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+/* ExpenseList.js */
+
+#add-expense-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-expense-button:hover {
+    background-color: #0056b3;
+}
+
+
+#input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+ /* desctiption and amount field */
+#input-container {
+    padding: 5px;
+}
+#expense-description, #expense-amount {
+    border: 1px solid #b3b1b1;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: auto;
+}
+::placeholder {
+    color: gray;
+}
+
+
+#expenseListahan {
+    list-style-type: none;
+    padding: 0;
+}
+
+#expenseListahan li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+

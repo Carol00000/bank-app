@@ -1,0 +1,98 @@
+#DashContainer {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  font-size: 18px;
+}
+
+#SideBar {
+  width: 15%; /* laki nung side box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #152360; /* sidenav color */
+  padding: 30px;
+}
+
+#NavList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0px;
+  list-style-type: none;
+  font-size: 20px;
+}
+ /* icon imageee */
+#NavLogo {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: auto;            
+  width: auto;            
+}
+
+#SideNavLogo img {
+  height: 50px;           
+  width: auto;             
+}
+
+#NavList #NavLogo {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#dashLink { /*HOME. BUDGET APP. FUND TRANSFER */
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #ead994; 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#dashLink:hover {
+  color: white;
+}
+
+
+
+
+
+#MainContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+
+
+
+/*
+.logoutBtn {
+  margin-top: 70vh;
+} */
+
+
+/*
+#BGsaKANAN {
+  width: 50%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#BGsaKANAN img {
+  max-width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+#BGsaKANAN img:hover {
+  transform: scale (1.1);
+}
+  */
