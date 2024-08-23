@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8417737d.css",
+    "main.js": "/static/js/main.84e93ad1.js",
+    "static/js/453.772695fa.chunk.js": "/static/js/453.772695fa.chunk.js",
+    "static/media/Desktop-Laptop_Background 2.png": "/static/media/Desktop-Laptop_Background 2.1edcaa5f3ba0000166f6.png",
+    "static/media/KCBANK2_32x32.png": "/static/media/KCBANK2_32x32.a824862a3aca703203cd.png",
+    "index.html": "/index.html",
+    "main.8417737d.css.map": "/static/css/main.8417737d.css.map",
+    "main.84e93ad1.js.map": "/static/js/main.84e93ad1.js.map",
+    "453.772695fa.chunk.js.map": "/static/js/453.772695fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8417737d.css",
+    "static/js/main.84e93ad1.js"
+  ]
+}
